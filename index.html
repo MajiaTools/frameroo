@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Frameroo 在线摄影模拟器 — 好照片，从多看一眼开始</title>
+<meta name="description" content="好照片，从多看一眼开始。Frameroo 在线摄影模拟器：5 个可走动三维场景，在浏览器里练习构图，按下快门回看对比。">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;background:#0f0d09;color:#f4efe3;line-height:1.7}
+.hero{position:relative;min-height:92vh;display:flex;align-items:flex-end;justify-content:center;text-align:center;overflow:hidden}
+.hero img.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(15,13,9,.96) 8%,rgba(15,13,9,.35) 55%,rgba(15,13,9,.55))}
+.hero-inner{position:relative;z-index:1;padding:64px 24px;max-width:760px}
+.kicker{letter-spacing:.28em;text-transform:uppercase;font-size:12px;color:#f0b95c;margin-bottom:16px}
+h1{font-size:clamp(32px,6vw,54px);line-height:1.25;margin-bottom:16px}
+.sub{font-size:18px;color:#d5ccb8;margin-bottom:32px}
+.btn{display:inline-block;background:#f0b95c;color:#1c1306;font-weight:700;font-size:17px;padding:15px 42px;border-radius:999px;text-decoration:none;transition:transform .15s}
+.btn:hover{transform:translateY(-2px)}
+.btn.ghost{background:transparent;color:#f0b95c;border:2px solid #f0b95c;margin-left:12px}
+section{max-width:900px;margin:0 auto;padding:72px 24px}
+h2{font-size:30px;margin-bottom:12px}
+.lead{color:#b3a88d;margin-bottom:36px;font-size:17px}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.step{background:#191410;border:1px solid #322a1d;border-radius:14px;padding:28px 24px}
+.step .n{font-size:13px;color:#f0b95c;letter-spacing:.2em;margin-bottom:8px}
+.step h3{font-size:18px;margin-bottom:8px}
+.step p{font-size:15px;color:#b3a88d}
+.scenes{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.scene{background:#191410;border:1px solid #322a1d;border-radius:14px;padding:28px 24px}
+.scene .no{font-size:13px;color:#f0b95c;letter-spacing:.2em;margin-bottom:8px}
+.scene h3{font-size:18px;margin-bottom:8px}
+.scene p{font-size:15px;color:#b3a88d}
+.features{list-style:none;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+.features li{background:#191410;border:1px solid #322a1d;border-radius:12px;padding:20px 22px;font-size:15px;color:#d5ccb8}
+.features li b{color:#f4efe3}
+footer{border-top:1px solid #322a1d;padding:40px 24px;text-align:center;color:#8a7d60;font-size:13px;max-width:900px;margin:0 auto}
+footer a{color:#f0b95c}
+</style>
+</head>
+<body>
+<div class="hero">
+<img class="bg" src="assets/hero-poster.jpg" alt="Frameroo 在线摄影模拟器">
+<div class="hero-inner">
+<div class="kicker">在线摄影模拟器</div>
+<h1>好照片，从多看一眼开始。</h1>
+<p class="sub">走进一个场景，试试不同构图。拍下来，看看哪里还能更好——5 个可走动的三维练习场景，浏览器里直接开始。</p>
+<a class="btn" href="https://frameroo.online">进入练习</a>
+<a class="btn ghost" href="https://frameroo.online">看看场景</a>
+</div>
+</div>
+
+<section>
+<h2>三步，拍出第一张</h2>
+<p class="lead">今天，想拍什么？从五个场景里选一个开始。</p>
+<div class="steps">
+<div class="step"><div class="n">01</div><h3>选一个场景</h3><p>从庭院、草原、山湖或雪峰开始——江南庭院、月门框景，等你去走一走。</p></div>
+<div class="step"><div class="n">02</div><h3>换一种构图</h3><p>在场景里移动机位，调整朝向、画幅和人物站位，把人物放进画面。</p></div>
+<div class="step"><div class="n">03</div><h3>回看，再试一次</h3><p>照片和拍摄参数自动留存在「最近的快门」，对比后再拍，还可以请 AI 点评。</p></div>
+</div>
+</section>
+
+<section>
+<h2>五个练习场景</h2>
+<p class="lead">5 个场景，各有不同的练习。封面均为模拟器拍摄示例。</p>
+<div class="scenes">
+<div class="scene"><div class="no">01</div><h3>江南庭院</h3><p>白墙黛瓦，四进相连的三维园林——月门框景、廊柱人像，与同伴一起找画面。</p></div>
+<div class="scene"><div class="no">02</div><h3>高山草甸</h3><p>阿尔卑斯草原，自由行走——把花丛、草甸和远山放进同一幅画面。</p></div>
+<div class="scene"><div class="no">03</div><h3>伊犁远山</h3><p>新疆伊犁雪山与模拟草地的层次——旅行人像练习，近景草地配雪峰。</p></div>
+<div class="scene"><div class="no">04</div><h3>山湖来信</h3><p>瑞士约里湖草甸——把人物安放在近处，让湖泊和远山成为旅行记忆。</p></div>
+<div class="scene"><div class="no">05</div><h3>群峰的呼吸</h3><p>伯尔尼纳连绵雪峰——用岩石、雪脊和天空组织画面，自由取景。</p></div>
+</div>
+</section>
+
+<section>
+<h2>它能帮你练什么</h2>
+<p class="lead">A LITTLE PRACTICE, A NEW PERSPECTIVE.</p>
+<ul class="features">
+<li><b>真实的走动</b> — 可走动三维场景，不是看图，是亲手走位找角度</li>
+<li><b>手机取景框模拟</b> — 在模拟器里端起相机，练习真实的拍摄手感</li>
+<li><b>自动保存拍摄记录</b> — 照片和拍摄参数留存在「最近的快门」，随时复盘</li>
+<li><b>AI 点评</b> — 请 AI 看看你的照片，哪里还能更好</li>
+<li><b>免费素材</b> — 环境 CC0 / 人物 MIT，安心练习</li>
+<li><b>免安装</b> — 打开浏览器就能练，无需下载应用</li>
+</ul>
+</section>
+
+<footer>
+<p>好照片，从多看一眼开始。 <a href="https://frameroo.online">frameroo.online</a></p>
+<p style="margin-top:12px">独立摄影练习工具。本页概念图仅为示意，不是拍摄结果保证。Site © lynsea.</p>
+</footer>
+</body>
+</html>
